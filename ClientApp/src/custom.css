@@ -1,0 +1,117 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+body{
+}
+
+button{
+    background-color:rebeccapurple;
+    color:white;
+    font-weight:600;
+}
+
+ul {
+    list-style-type:none;
+    padding-left:0px;
+}
+
+.applistitem{
+    margin-bottom:10px;
+}
+.splicont {
+    display: table;
+}
+
+.gridcontainer {
+    position:absolute;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height:100vh;
+    width:100%;
+}
+
+.imageitem{
+    border-style:solid;
+    border-color:black;
+    margin-bottom: 10px;
+    display:grid;
+    grid-template-columns: 90% 10%;
+    width:80%;
+}
+
+.imageframe {
+    border-style: solid;
+    border-color: black;
+    margin:5px;
+}
+
+.textdiv {
+    font-weight: 600;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 100%;
+    padding: 15px;
+    margin:5px;
+    border-style: solid;
+    border-color: black;
+}
+.errordiv {
+    background-color: lightcoral;
+    border-style: solid;
+    border-color: darkred;
+    color: red;
+    padding: 5px;
+    margin-bottom: 10px;
+    width:80%;
+}
+
+.listcontainer{
+    display:grid;
+    height:100%;
+}
+
+.loadbutton{
+    position:fixed;
+    bottom:10px;
+    background-color:white;
+    border-color:red;
+}
+
+.tophalf {
+    text-align: center;
+}
+.bottomhalf {
+    text-align: center;
+    border-top-style:solid;
+    border-top-color:red;
+    width:92%;
+}
+
+.leftpane {
+    padding-top: 100px;
+    padding-left: 50px;
+    /*width: 50%;*/
+    border-right-style: solid;
+    border-right-color: black;
+}
+
+.rightpane {
+    padding-top: 100px;
+    padding-left: 50px;
+    text-align: center;
+    /* width: 50%;*/
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
